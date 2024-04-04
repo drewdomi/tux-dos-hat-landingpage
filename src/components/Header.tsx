@@ -7,17 +7,19 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { MenuIcon } from "lucide-react";
+import { Button } from "../components/ui/button"
+
 
 function Header() {
   return (
     <header className="flex justify-between items-center p-4 px-5 max-w-screen-lg mx-auto">
       <div>
-        <h2>Logo</h2>
+        <img src="/_76c8f30d-930b-40e7-8444-369a12e85e7d.jpg" alt="" width="70px" height="70px" className="[border-radius:50%;]"/>
       </div>
 
       <ul className="gap-6 hidden md:flex">
         <li>
-          <a href="#">Home</a>
+          <a href="#">img</a>
         </li>
         <li>
           <a href="#">Sobre</a>
