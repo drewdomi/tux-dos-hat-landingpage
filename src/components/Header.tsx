@@ -10,7 +10,7 @@ import { MenuIcon } from "lucide-react";
 
 function Header() {
   return (
-    <header className="flex justify-between p-4 px-5">
+    <header className="flex justify-between items-center p-4 px-5 max-w-screen-lg mx-auto">
       <div>
         <h2>Logo</h2>
       </div>
