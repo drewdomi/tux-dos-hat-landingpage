@@ -2,8 +2,6 @@ import {
   Sheet,
   SheetContent,
   SheetDescription,
-  SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
 import "@/styles/Header.css";
@@ -25,7 +23,7 @@ function Header() {
 
       <ul className="gap-6 hidden md:flex">
         <li>
-          <a href="https://discord.gg/pqZ64SGaVG">
+          <a href="https://discord.gg/pqZ64SGaVG" target="_blank">
             <SiDiscord />
             Discord
           </a>
@@ -53,7 +51,7 @@ function Header() {
             <SheetDescription>
               <ul className="ml-4 gap-5 text-2xl flex flex-col">
                 <li>
-                  <a href="https://discord.gg/pqZ64SGaVG">
+                  <a href="https://discord.gg/pqZ64SGaVG" target="_blank">
                     <SiDiscord />
                     Discord
                   </a>
