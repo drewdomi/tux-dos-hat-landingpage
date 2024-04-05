@@ -1,15 +1,31 @@
 ---
 import '@/styles/globals.css'
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
-
-import { Button } from "@/components/ui/button"
+import { Button } from "../components/ui/button"
+import Header from '@/components/Header';
 ---
 
-<Layout title="Welcome to Astro.">
-	<main>
-    <Button variant="destructive">Hello World</Button>
+<Layout title="TUX DOS HAT and CODE">
+	
+  <Header client:only='react'/>
+  <main class="max-w-screen-md mx-auto px-4">
+    <div>
+      <h1 class="text-center text-2xl mb-1">TUX SERVER</h1>
+      <h2 class="text-center text-lg mb-1">discord server</h2>
+    </div>
+    <div>
+      <h1 class="text-[20px]">QUEM SOMOS NÓS</h1>
+      <p class="text-[17px]">A Tux Server é uma comunidade apaixonada por Linux, programação e hacking. O nome da comunidade é uma homenagem ao Tux, o pinguim carismático que é o mascote do sistema operacional Linux. Nós gostamos de Linux não apenas por sua robustez e flexibilidade, mas também por sua filosofia de código aberto e colaboração.
+
+        Nosso foco principal está em programação e hacking ético, buscando expandir nossos conhecimentos e habilidades nesses campos. Assim como o Tux, símbolo de liberdade e autonomia, buscamos promover um ambiente de aprendizado colaborativo e inclusivo. Na Tux Server, adotamos práticas como peer-mentoring, onde os membros mais experientes auxiliam os iniciantes, e project-based learning, onde aprendemos colocando a mão na massa em projetos reais.</p>
+    </div>
+    <div class="mt-4">
+      <h1 class="text-[20px]">POR QUE NÓS EXISTIMOS</h1>
+      <p class="text-[18px]">A Tux Server não é apenas mais uma comunidade virtual. Nós existimos para quebrar barreiras, compartilhar conhecimento e promover uma cultura de aprendizado contínuo. Nosso propósito vai além de simplesmente reunir entusiastas de Linux, programação e hacking. Nós existimos para inspirar e capacitar</p>
+    </div>
   </main>
 </Layout>
 
 <style></style>
+
+<!--https://discord.gg/pqZ64SGaVG -->
